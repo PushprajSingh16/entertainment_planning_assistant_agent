@@ -1,75 +1,75 @@
 import streamlit as st
 import requests
 
-# Custom CSS for purple theme
+# Custom CSS for black and white theme
 st.markdown("""
 <style>
     .stApp {
-        background-color: #4a148c;
+        background-color: #000000;
         color: white;
     }
     .css-1d391kg {
-        background-color: #4a148c;
+        background-color: #000000;
         color: white;
     }
     .css-12ttj6m {
-        background-color: #6a1b9a;
+        background-color: #1a1a1a;
         color: white;
     }
     /* Input fields */
     .stTextInput > div > div > input {
-        background-color: #7b1fa2 !important;
+        background-color: #333333 !important;
         color: white !important;
-        border: 1px solid #9c27b0 !important;
+        border: 1px solid #666666 !important;
     }
     .stTextInput label {
         color: white !important;
     }
     /* Selectbox */
     .stSelectbox > div > div > select {
-        background-color: #7b1fa2 !important;
+        background-color: #333333 !important;
         color: white !important;
-        border: 1px solid #9c27b0 !important;
+        border: 1px solid #666666 !important;
     }
     .stSelectbox label {
         color: white !important;
     }
     /* Buttons */
     .stButton > button {
-        background-color: #ff5722 !important;
+        background-color: #666666 !important;
         color: white !important;
         border: none !important;
     }
     .stButton > button:hover {
-        background-color: #ff7043 !important;
+        background-color: #999999 !important;
     }
     /* Alerts */
     .stSuccess {
-        background-color: #4caf50 !important;
+        background-color: #333333 !important;
         color: white !important;
-        border: 1px solid #66bb6a !important;
+        border: 1px solid #666666 !important;
     }
     .stWarning {
-        background-color: #ff9800 !important;
+        background-color: #666666 !important;
         color: white !important;
-        border: 1px solid #ffb74d !important;
+        border: 1px solid #999999 !important;
     }
     .stError {
-        background-color: #f44336 !important;
+        background-color: #333333 !important;
         color: white !important;
-        border: 1px solid #ef5350 !important;
+        border: 1px solid #666666 !important;
     }
     /* Headers and text */
     h1, h2, h3, h4, h5, h6 {
         color: white !important;
     }
     .stCaption {
-        color: #e1bee7 !important;
+        color: #cccccc !important;
     }
     /* Metrics */
     .css-1xarl3l {
-        background-color: #6a1b9a !important;
-        border: 1px solid #7b1fa2 !important;
+        background-color: #1a1a1a !important;
+        border: 1px solid #333333 !important;
         color: white !important;
     }
     /* Spinner */

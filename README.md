@@ -1,5 +1,9 @@
 # Entertainment Planning Assistant Agent
 
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/PushprajSingh16/entertainment_planning_assistant_agent)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/PushprajSingh16/entertainment_planning_assistant_agent/blob/main/LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.13+-blue.svg)](https://www.python.org/)
+
 ## Problem Statement & Objectives
 
 ### 1. Problem Statement
@@ -37,7 +41,7 @@ In today's fast-paced world, planning entertainment activities like movie outing
 - **Intelligent Planning Agent**: AI-powered agent that generates comprehensive entertainment plans
 - **Multi-City Support**: Coverage for 20+ major Indian cities with custom city option
 - **Comprehensive Information**: Detailed plans including theatres, timings, pricing, attractions, transportation, dining, weather, and safety
-- **Modern Web Interface**: Purple-themed Streamlit frontend with responsive design
+- **Modern Web Interface**: Black and white themed Streamlit frontend with responsive design
 - **RESTful API**: FastAPI backend with health monitoring and error handling
 - **Configurable Settings**: Environment-based configuration for API keys and model parameters
 - **Error Resilience**: Graceful handling of API failures and network issues
@@ -84,7 +88,7 @@ In today's fast-paced world, planning entertainment activities like movie outing
 
 **Frontend:**
 - **Streamlit**: Python framework for building interactive web applications
-- **Custom CSS**: Purple-themed styling for enhanced user experience
+- **Custom CSS**: Black and white themed styling for enhanced user experience
 
 **Development & Deployment:**
 - **Python 3.13+**: Programming language
@@ -105,7 +109,7 @@ In today's fast-paced world, planning entertainment activities like movie outing
 ```
 
 **Key Interface Elements:**
-- Purple-themed web interface with sidebar navigation
+- Black and white themed web interface with sidebar navigation
 - City selection dropdown with 20+ predefined options
 - Custom city input for flexibility
 - Real-time plan generation with loading indicators
@@ -128,7 +132,7 @@ In today's fast-paced world, planning entertainment activities like movie outing
 
 - **Successful AI Integration**: Seamless integration with Groq LLM for intelligent content generation
 - **Comprehensive Planning**: Single platform providing all entertainment planning information
-- **User-Friendly Interface**: Modern purple-themed web application with intuitive navigation
+- **User-Friendly Interface**: Modern black and white themed web application with intuitive navigation
 - **Scalable Architecture**: RESTful API design supporting future expansions
 - **Error Handling**: Robust error management ensuring reliable user experience
 - **Performance**: Fast response times with optimized LLM prompts and token limits
@@ -163,5 +167,7 @@ The Entertainment Planning Assistant Agent represents a successful implementatio
 
 ---
 
-**Built with ❤️ using FastAPI, Streamlit, and Groq AI**</content>
+**Built with ❤️ using FastAPI, Streamlit, and Groq AI**
+
+[🌟 Star this repository](https://github.com/PushprajSingh16/entertainment_planning_assistant_agent) • [🐛 Report Issues](https://github.com/PushprajSingh16/entertainment_planning_assistant_agent/issues) • [📖 Documentation](https://github.com/PushprajSingh16/entertainment_planning_assistant_agent#readme)</content>
 <parameter name="filePath">c:\Users\ANUSHKA\Desktop\entertainment_planning_assistant\README.md
