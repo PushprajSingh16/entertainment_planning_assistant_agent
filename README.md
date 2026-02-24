@@ -169,5 +169,5 @@ The Entertainment Planning Assistant Agent represents a successful implementatio
 
 **Built with ❤️ using FastAPI, Streamlit, and Groq AI**
 
-[🌟 Star this repository](https://github.com/PushprajSingh16/entertainment_planning_assistant_agent) • [🐛 Report Issues](https://github.com/PushprajSingh16/entertainment_planning_assistant_agent/issues) • [📖 Documentation](https://github.com/PushprajSingh16/entertainment_planning_assistant_agent#readme)</content>
+
 <parameter name="filePath">c:\Users\ANUSHKA\Desktop\entertainment_planning_assistant\README.md
