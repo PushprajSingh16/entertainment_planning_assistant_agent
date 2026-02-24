@@ -1,8 +1,5 @@
 # Entertainment Planning Assistant Agent
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/PushprajSingh16/entertainment_planning_assistant_agent)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/PushprajSingh16/entertainment_planning_assistant_agent/blob/main/LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.13+-blue.svg)](https://www.python.org/)
 
 ## Problem Statement & Objectives
 
