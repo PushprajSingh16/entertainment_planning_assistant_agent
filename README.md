@@ -95,6 +95,8 @@ In today's fast-paced world, planning entertainment activities like movie outing
 ## Results & Output
 
 ### 1. Screenshots / Outputs
+<img width="1105" height="827" alt="Screenshot 2026-02-24 024716" src="https://github.com/user-attachments/assets/28b0143d-6967-4c31-af25-3c1c3b6d433d" />
+
 
 **Sample API Response:**
 ```json
@@ -104,27 +106,6 @@ In today's fast-paced world, planning entertainment activities like movie outing
   "plan": "**Border 2 Entertainment Plan**\n\n**Location:** Indore, India\n**Movie:** Border 2\n**Theatres:** PVR Cinemas, Cinepolis, INOX Leisure\n**Show Timings:** Morning: 10 AM-12 PM, Afternoon: 2 PM-5 PM, Evening: 7 PM-10 PM\n**Ticket Prices:** ₹150-₹400\n**Nearby Attractions:** Rajwada Palace, Lal Bagh Palace\n**Transportation:** Auto-rickshaw, taxi, metro\n**Recommended Restaurants:** The Great Kabab Factory, Keventers\n**Weather Considerations:** Pleasant winter temperatures (10-25°C)\n**Safety Tips:** Travel in groups, use reputable transport"
 }
 ```
-
-**Key Interface Elements:**
-- Black and white themed web interface with sidebar navigation
-- City selection dropdown with 20+ predefined options
-- Custom city input for flexibility
-- Real-time plan generation with loading indicators
-- Structured display of planning information
-- Backend health monitoring
-
-### 2. Reports/Dashboards/Models
-
-**API Endpoints:**
-- `GET /`: Service status and version information
-- `GET /health`: Health check endpoint for monitoring
-- `GET /plan?movie={movie}&city={city}`: Main planning endpoint
-
-**Configuration Model:**
-- Environment-based settings (.env file)
-- Configurable LLM model and temperature
-- API key management for Groq integration
-
 ### 3. Key Outcomes
 
 - **Successful AI Integration**: Seamless integration with Groq LLM for intelligent content generation
