@@ -46,36 +46,10 @@ In today's fast-paced world, planning entertainment activities like movie outing
 ### 2. Overall Architecture / Workflow
 
 **Architecture:**
-```
-┌─────────────────┐    HTTP Requests    ┌─────────────────┐
-│   Streamlit     │◄──────────────────►│     FastAPI      │
-│   Frontend      │                     │     Backend      │
-│   (Port 8501)   │                     │   (Port 8000)    │
-└─────────────────┘                     └─────────────────┘
-         │                                       │
-         │                                       │
-         ▼                                       ▼
-┌─────────────────┐                     ┌─────────────────┐
-│   User Input    │                     │  Planner Agent  │
-│   Processing    │                     │                 │
-└─────────────────┘                     └─────────────────┘
-                                                 │
-                                                 ▼
-                                       ┌─────────────────┐
-                                       │     Groq LLM     │
-                                       │   API Service    │
-                                       └─────────────────┘
-```
+<img width="1147" height="1014" alt="architecture_epa_agent" src="https://github.com/user-attachments/assets/59f3100f-2a29-4c4d-a324-934c887ebce1" />
 
 **Workflow:**
-1. User inputs movie/event and city through web interface
-2. Frontend sends request to FastAPI backend
-3. Backend PlannerAgent processes request and constructs detailed prompt
-4. Agent calls Groq LLM with structured prompt for comprehensive planning
-5. LLM generates detailed response covering all planning aspects
-6. Backend returns structured JSON response
-7. Frontend displays formatted plan with visual elements
-
+<img width="306" height="497" alt="workflow_epa_agent" src="https://github.com/user-attachments/assets/b0f2351e-91a5-4fd6-af57-12711093d10c" />
 ### 3. Tools & Technologies Used
 
 **Backend:**
@@ -94,18 +68,13 @@ In today's fast-paced world, planning entertainment activities like movie outing
 
 ## Results & Output
 
-### 1. Screenshots / Outputs
+### Screenshots / Outputs
 <img width="1105" height="827" alt="Screenshot 2026-02-24 024716" src="https://github.com/user-attachments/assets/28b0143d-6967-4c31-af25-3c1c3b6d433d" />
 
+<img width="579" height="842" alt="Screenshot 2026-02-24 024857" src="https://github.com/user-attachments/assets/500feb08-ed3d-4ac4-a596-21cbc49db3c0" />
 
-**Sample API Response:**
-```json
-{
-  "movie": "Border 2",
-  "city": "Indore",
-  "plan": "**Border 2 Entertainment Plan**\n\n**Location:** Indore, India\n**Movie:** Border 2\n**Theatres:** PVR Cinemas, Cinepolis, INOX Leisure\n**Show Timings:** Morning: 10 AM-12 PM, Afternoon: 2 PM-5 PM, Evening: 7 PM-10 PM\n**Ticket Prices:** ₹150-₹400\n**Nearby Attractions:** Rajwada Palace, Lal Bagh Palace\n**Transportation:** Auto-rickshaw, taxi, metro\n**Recommended Restaurants:** The Great Kabab Factory, Keventers\n**Weather Considerations:** Pleasant winter temperatures (10-25°C)\n**Safety Tips:** Travel in groups, use reputable transport"
-}
-```
+<img width="1725" height="435" alt="Screenshot 2026-02-24 024941" src="https://github.com/user-attachments/assets/90471778-7bf9-4074-a938-7022c9f3007a" />
+
 ### 3. Key Outcomes
 
 - **Successful AI Integration**: Seamless integration with Groq LLM for intelligent content generation
