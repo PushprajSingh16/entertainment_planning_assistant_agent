@@ -51,6 +51,8 @@ In today's fast-paced world, planning entertainment activities like movie outing
 **Workflow:**
 
 <img width="306" height="497" alt="workflow_epa_agent" src="https://github.com/user-attachments/assets/b0f2351e-91a5-4fd6-af57-12711093d10c" />
+
+
 ### 3. Tools & Technologies Used
 
 **Backend:**
