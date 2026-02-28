@@ -115,9 +115,3 @@ The Entertainment Planning Assistant Agent represents a successful implementatio
 - **Analytics Dashboard**: Implement usage analytics and performance monitoring
 - **CI/CD Pipeline**: Automated testing and deployment workflows
 
----
-
-**Built with ❤️ using FastAPI, Streamlit, and Groq AI**
-
-
-<parameter name="filePath">c:\Users\ANUSHKA\Desktop\entertainment_planning_assistant\README.md
